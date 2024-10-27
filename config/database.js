@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const MONGO_URI='mongodb+srv://<jalvarez54>:<1234jose>@cluster0.lqbuj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const MONGO_URI=`mongodb+srv://andrestoro999:${1624}@clusteringtoro.vk7ym.mongodb.net/?retryWrites=true&w=majority&appName=ClusterIngtoro`
 dotenv.config({ path: './config.env' });
 
 const connectDB = async () => {
